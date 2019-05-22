@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Digital";
+    src: url("media/DS-DIGII.TTF");
+}
+
+.app-content {
+    width: 800px;
+    margin-top: 7.5%;
+    padding: 2.5% 2.5% 0.5% 2.5%;
+    // background: rgb(106, 172, 233);
+    background-image: linear-gradient(to right,rgb(167, 200, 231), rgb(65, 183, 212));
+
+    border-radius: 2.5%;
+    font-family: 'Franklin Gothic Medium', Arial;
+    color: whitesmoke;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+
+    h1,h2{
+        font-family: 'Franklin Gothic Medium', Arial;
+        color: rgb(238, 231, 238);
+    }
+}
+
+.set-timer{
+    margin-top: 5%;
+    text-align: center;
+}
+
+#breakID{
+    font-size: 18px;
+}
+
+#sessionID{
+    font-size: 18px;
+}
+
+.timer {
+    border: 5px solid rgb(238, 231, 238);
+    margin: 5% auto 2.5% auto;
+    width: 250px;
+    height: 150px;
+    border-radius: 25%;
+    position: relative;
+    .timer-wrapper {
+        width: 200px;
+        position: relative;
+        height: 120px;
+        left: 25%;
+        top: 15%;
+    }
+    .timer-label {
+        font-size: 22px;
+        position: relative;
+        left: 7%;
+        top: 2.5%;
+    }
+    .time-counter {
+        font-family: digital;
+        font-size: 50px;
+    } 
+}
+
+button{
+    background: none;
+    border: none;
+    color: rgb(238, 231, 238);
+    font-size: 18px;
+}
+
+.btn-level{
+    text-align: right;
+}
+
+.btn-media{
+    margin: 0% 2% 0 2%;
+}
+
+.developer {
+    font-style: italic;
+    font-size: 12px;
+    a {
+        text-decoration: none;
+        color: rgb(238, 231, 238);
+      }
+}
+
+.media-container{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 750px) {
+    .app-content {
+       transform: scale(0.6);
+      -webkit-transform: scale(0.6);
+      -moz-transform: scale(0.6);
+      -ms-transform: scale(0.6);
+      -o-transform: scale(0.6);
+    }
+}
